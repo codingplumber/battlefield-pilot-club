@@ -1,0 +1,180 @@
+
+.header-wrapper {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5); }
+  .header-wrapper nav {
+    position: fixed;
+    width: 100%; }
+    .header-wrapper nav ul li {
+      width: 100%;
+      padding: 21px 0;
+      text-align: center;
+      border: 1px solid #013765;
+      font-size: 20px;
+      background: #fff;
+      cursor: pointer; }
+      .header-wrapper nav ul li a {
+        color: #013765; }
+    .header-wrapper nav ul li:hover {
+      background: #013765;
+      transition: .2s; }
+      .header-wrapper nav ul li:hover a {
+        color: #fff; }
+    .header-wrapper nav ul li:last-of-type {
+      border-bottom: 2px solid #013765; }
+  .header-wrapper figure {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px; }
+    .header-wrapper figure img {
+      max-width: 80%;
+      background-size: cover;
+      object-fit: contain;
+      margin-bottom: 10px; }
+    .header-wrapper figure .header-overlay {
+      background: url("https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/552868_10150688940197356_1035131920_n.jpg?oh=6da04280356f5f3c565eb4baba1d241c&oe=5A31E7F5"); }
+    .header-wrapper figure figcaption {
+      width: 100%;
+      padding: 4% 5px;
+      background: #013765;
+      color: #fff;
+      text-align: center;
+      letter-spacing: .75em;
+      font-feature-settings: "liga" 0;
+      font-size: 14px; }
+
+#header-slide {
+  top: -323px;
+  position: absolute;
+  width: 100%;
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+
+#header-slide.down {
+  top: 0; }
+
+#nav-icon3 {
+  width: 36px;
+  /*60px*/
+  height: 33px;
+  /*27px*/
+  top: 17px;
+  left: 17px;
+  position: fixed;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+  z-index: 5; }
+
+#nav-icon3 span {
+  background: #013765;
+  display: block;
+  position: absolute;
+  height: 7px;
+  width: 100%;
+  opacity: 1;
+  left: 0;
+  border-radius: 20%;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+
+#nav-icon3 span:nth-child(1) {
+  top: 0px; }
+
+#nav-icon3 span:nth-child(2), #nav-icon3 span:nth-child(3) {
+  top: 11px;
+  /*18px*/ }
+
+#nav-icon3 span:nth-child(4) {
+  top: 22px;
+  /*36px*/ }
+
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%; }
+
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%; }
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*# sourceMappingURL=maps/styles.css.map */
