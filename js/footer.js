@@ -1,9 +1,9 @@
 angular.module('app')
-.directive('header', function() {
+.directive('footer', function() {
 
   return {
     restrict: 'E',
-    templateUrl: './views/header.html'
+    templateUrl: './views/footer.html'
   }
 
 });
