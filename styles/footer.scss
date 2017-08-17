@@ -1,0 +1,62 @@
+@import 'fonts';
+// olive - #608541
+// lightblue - #006f97
+
+.footer-wrapper {
+  background: #013765;
+  width: 100%;
+  height: 157px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  .footer-logo {
+    margin-bottom: 7px;
+    img {
+      width: 295px;
+    }
+  }
+
+  .footer-address {
+    display: none;
+    color: #fff;
+  }
+
+  .footer-social {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    .footer-social-circle {
+      height: 40px;
+      width: 40px;
+      border: #fff 2px solid;
+      border-radius: 50%;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 19px;
+      a {
+        text-decoration: none;
+        i {
+          color: #fff;
+          font-size: 27px;
+        }
+      }
+    }
+    .footer-social-circle:hover {
+      border: #608541 2px solid;
+      cursor: pointer;
+      a {
+        i {
+          color: #608541;
+        }
+      }
+    }
+  }
+
+  .footer-copyright {
+    color: #fff;
+    font-size: 12px;
+  }
+}

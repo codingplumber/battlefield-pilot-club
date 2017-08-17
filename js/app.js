@@ -8,4 +8,12 @@ angular.module('app', ['ui.router'])
       url: '/',
       templateUrl: './views/home.html'
     })
+    .state('projects', {
+      url: '/projects',
+      templateUrl: './views/projects.html'
+    })
+    .state('memberships', {
+      url: '/memberships',
+      templateUrl: './views/memberships.html'
+    })
 });

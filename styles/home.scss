@@ -1,0 +1,48 @@
+@import 'fonts';
+
+.home-wrapper {
+  .home-slider {
+    display: flex;
+    justify-content: center;
+    padding: 20px 5%;
+    .home-slide {
+      height: 200px;
+      width: 100%;
+      background: #608541;
+    }
+  }
+
+  .home-text {
+    padding: 10px 5% 25px 5%;
+    .home-text1 {
+      margin-bottom: 20px;
+      img {
+        height: 100px;
+        float: right;
+      }
+    }
+    .home-text2 {
+      clear: right;
+      img {
+        float: left;
+        height: 120px;
+        margin-right: 14px;
+      }
+      .h-text2 {
+      }
+    }
+    .home-heading {
+      color: #3f3f3f;
+      font-family: $av;
+      font-size: 25px;
+      text-decoration: underline;
+      line-height: 36px;
+    }
+    p {
+      font-family: $robreg;
+      color: #545454;
+      line-height: 22px;
+      text-align: justify;
+    }
+  }
+}
