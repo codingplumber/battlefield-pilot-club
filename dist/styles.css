@@ -7,6 +7,51 @@
   font-family: "roboreg";
   src: url(./fonts/Roboto-Slab-Regular/RobotoSlab-Regular.ttf); }
 
+.ethics-wrapper {
+  padding: 30px 5%;
+  font-family: "roboreg";
+  text-align: justify; }
+  .ethics-wrapper .ethics h1 {
+    font-family: "averta";
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px; }
+  .ethics-wrapper .ethics img:first-of-type {
+    float: right;
+    height: 150px;
+    margin-left: 10px; }
+  .ethics-wrapper .ethics h2 {
+    font-family: "roboreg";
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 30px; }
+  .ethics-wrapper .ethics h2:first-of-type {
+    margin-bottom: 30px; }
+  .ethics-wrapper .ethics h3 {
+    font-family: "roboreg";
+    line-height: 26px;
+    font-style: italic; }
+  .ethics-wrapper .ethics ul {
+    padding: 20px 20px; }
+    .ethics-wrapper .ethics ul li {
+      font-family: "Open Sans", sans-serif;
+      font-style: italic;
+      font-size: 15px;
+      line-height: 35px;
+      margin-bottom: 12px; }
+  .ethics-wrapper .ethics img:last-of-type {
+    float: left;
+    margin-right: 15px; }
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@font-face {
+  font-family: "averta";
+  src: url(./fonts/averta-bold-5949306582138.otf); }
+
+@font-face {
+  font-family: "roboreg";
+  src: url(./fonts/Roboto-Slab-Regular/RobotoSlab-Regular.ttf); }
+
 .footer-wrapper {
   background: #013765;
   width: 100%;

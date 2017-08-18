@@ -16,4 +16,8 @@ angular.module('app', ['ui.router'])
       url: '/memberships',
       templateUrl: './views/memberships.html'
     })
+    .state('ethics', {
+      url: '/ethics',
+      templateUrl: './views/ethics.html'
+    })
 });

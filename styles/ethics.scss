@@ -1,0 +1,49 @@
+@import 'fonts';
+
+.ethics-wrapper {
+  padding: 30px 5%;
+  font-family: $robreg;
+  text-align: justify;
+  .ethics {
+    h1 {
+      font-family: $av;
+      font-size: 30px;
+      text-decoration: underline;
+      margin-bottom: 20px;
+    }
+    img:first-of-type {
+      float: right;
+      height: 150px;
+      margin-left: 10px;
+    }
+    h2 {
+      font-family: $robreg;
+      font-size: 18px;
+      margin-bottom: 10px;
+      line-height: 30px;
+    }
+    h2:first-of-type {
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-family: $robreg;
+      line-height: 26px;
+      font-style: italic;
+    }
+    ul {
+      padding: 20px 20px;
+      li {
+        font-family: $sans;
+        font-style: italic;
+        font-size: 15px;
+        line-height: 35px;
+        margin-bottom: 12px;
+      }
+    }
+    img:last-of-type {
+      float: left;
+      margin-right: 15px;
+    }
+  }
+
+}
