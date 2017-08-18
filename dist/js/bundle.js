@@ -16,6 +16,9 @@ angular.module('app', ['ui.router']).config(function ($stateProvider, $urlRouter
   }).state('ethics', {
     url: '/ethics',
     templateUrl: './views/ethics.html'
+  }).state('board', {
+    url: '/board',
+    templateUrl: './views/board.html'
   });
 });
 'use strict';

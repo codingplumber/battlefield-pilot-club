@@ -7,7 +7,46 @@
   font-family: "roboreg";
   src: url(./fonts/Roboto-Slab-Regular/RobotoSlab-Regular.ttf); }
 
+.board-wrapper {
+  color: #3f3f3f;
+  padding: 30px 5%;
+  text-align: justify; }
+  .board-wrapper h1 {
+    font-family: "averta";
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 15px; }
+  .board-wrapper ul {
+    margin-bottom: 20px;
+    padding: 0 15px; }
+    .board-wrapper ul li {
+      color: #545454;
+      font-family: "Open Sans", sans-serif;
+      font-style: italic;
+      line-height: 34px; }
+      .board-wrapper ul li span {
+        font-size: 20px;
+        font-family: "averta"; }
+  .board-wrapper .board-img {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .board-wrapper .board-img img {
+      height: 215px;
+      transform: rotate(180deg);
+      border-radius: 5%; }
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@font-face {
+  font-family: "averta";
+  src: url(./fonts/averta-bold-5949306582138.otf); }
+
+@font-face {
+  font-family: "roboreg";
+  src: url(./fonts/Roboto-Slab-Regular/RobotoSlab-Regular.ttf); }
+
 .ethics-wrapper {
+  color: #3f3f3f;
   padding: 30px 5%;
   font-family: "roboreg";
   text-align: justify; }
@@ -32,7 +71,8 @@
     line-height: 26px;
     font-style: italic; }
   .ethics-wrapper .ethics ul {
-    padding: 20px 20px; }
+    padding: 20px 20px;
+    color: #545454; }
     .ethics-wrapper .ethics ul li {
       font-family: "Open Sans", sans-serif;
       font-style: italic;
@@ -283,6 +323,7 @@
   src: url(./fonts/Roboto-Slab-Regular/RobotoSlab-Regular.ttf); }
 
 .mem-wrapper {
+  color: #3f3f3f;
   padding: 30px 5%;
   font-family: "roboreg";
   text-align: justify; }
@@ -301,7 +342,8 @@
     font-family: "roboreg";
     line-height: 26px; }
   .mem-wrapper .mem-top ul {
-    padding: 20px 20px; }
+    padding: 20px 20px;
+    color: #545454; }
     .mem-wrapper .mem-top ul li {
       font-family: "Open Sans", sans-serif;
       font-style: italic;

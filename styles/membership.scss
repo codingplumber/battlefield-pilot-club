@@ -1,6 +1,7 @@
 @import 'fonts';
 
 .mem-wrapper {
+  color: #3f3f3f;
   padding: 30px 5%;
   font-family: $robreg;
   text-align: justify;
@@ -24,6 +25,7 @@
     }
     ul {
       padding: 20px 20px;
+      color: #545454;
       li {
         font-family: $sans;
         font-style: italic;

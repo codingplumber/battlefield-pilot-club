@@ -20,4 +20,8 @@ angular.module('app', ['ui.router'])
       url: '/ethics',
       templateUrl: './views/ethics.html'
     })
+    .state('board', {
+      url: '/board',
+      templateUrl: './views/board.html'
+    })
 });
