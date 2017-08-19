@@ -1,4 +1,3 @@
-<header></header>
 <main class="mem-wrapper">
   <section class="mem-top">
     <h1>Membership:</h1>
@@ -21,9 +20,15 @@
     <p>If you have any questions or would like to attend on of our meetings please contact Patsy Stickel, President at <span>423.260.0234</span> or email me a message below.</p>
   </section>
 
-  <section class="mem-contact">
-    <h1>Contact Us:</h1>
-    <div class="mem-box"></div>
+  <section class="contact">
+    <h1 class="contact-heading">Contact Us:</h1>
+    <form action="https://formspree.io/your@email.com" method="POST">
+      <div class="contact-info">
+        <input type="text" name="name" placeholder="Name" class="contact-name" />
+        <input type="email" name="_replyto" placeholder="Email" class="contact-email" />
+        <textarea name="message" placeholder="Message" rows="6" class="contact-message"></textarea>
+        <button type="submit">Send</button>
+      </div>
+    </form>
   </section>
 </main>
-<footer></footer>

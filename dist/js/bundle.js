@@ -6,7 +6,8 @@ angular.module('app', ['ui.router']).config(function ($stateProvider, $urlRouter
 
   $stateProvider.state('home', {
     url: '/',
-    templateUrl: './views/home.html'
+    templateUrl: './views/home.html',
+    controller: 'homeCtrl'
   }).state('projects', {
     url: '/projects',
     templateUrl: './views/projects.html'
@@ -61,9 +62,26 @@ angular.module('app').directive('header', function () {
 });
 'use strict';
 
-angular.module('app').controller('mainCtrl', function ($scope) {
+angular.module('app').controller('homeCtrl', function ($scope) {
 
-  // $scope.test = 'ctrl working'
+  // $scope.carousel() {
+  //   $scope.myInterval = 3000;
+  //   $scope.slides = [
+  //     {
+  //       image: 'http://lorempixel.com/400/200/'
+  //     },
+  //     {
+  //       image: 'http://lorempixel.com/400/200/food'
+  //     },
+  //     {
+  //       image: 'http://lorempixel.com/400/200/sports'
+  //     },
+  //     {
+  //       image: 'http://lorempixel.com/400/200/people'
+  //     }
+  //   ];
+  // }
+  // $scope.carousel();
 
 });
 //# sourceMappingURL=bundle.js.map

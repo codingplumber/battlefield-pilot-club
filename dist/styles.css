@@ -30,11 +30,18 @@
   .board-wrapper .board-img {
     width: 100%;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    margin-bottom: 20px; }
     .board-wrapper .board-img img {
       height: 215px;
       transform: rotate(180deg);
       border-radius: 5%; }
+  .board-wrapper h2 {
+    font-size: 20px;
+    font-family: "roboreg";
+    font-weight: bold;
+    text-align: center;
+    font-style: italic; }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
 @font-face {
@@ -284,23 +291,15 @@
   justify-content: center;
   padding: 20px 5%; }
   .home-wrapper .home-slider .home-slide {
-    height: 200px;
-    width: 100%;
-    background: #608541; }
+    height: 250px;
+    width: 95%;
+    background: green;
+    border-radius: 5%; }
 
 .home-wrapper .home-text {
   padding: 10px 5% 25px 5%; }
   .home-wrapper .home-text .home-text1 {
     margin-bottom: 20px; }
-    .home-wrapper .home-text .home-text1 img {
-      height: 100px;
-      float: right; }
-  .home-wrapper .home-text .home-text2 {
-    clear: right; }
-    .home-wrapper .home-text .home-text2 img {
-      float: left;
-      height: 120px;
-      margin-right: 14px; }
   .home-wrapper .home-text .home-heading {
     color: #3f3f3f;
     font-family: "averta";
@@ -310,8 +309,23 @@
   .home-wrapper .home-text p {
     font-family: "roboreg";
     color: #545454;
-    line-height: 22px;
+    line-height: 25px;
     text-align: justify; }
+  .home-wrapper .home-text .home-text2 {
+    clear: right;
+    margin-bottom: 20px; }
+    .home-wrapper .home-text .home-text2 img {
+      float: left;
+      height: 120px;
+      margin-right: 14px;
+      border-radius: 50%;
+      border: 3px solid black; }
+  .home-wrapper .home-text .home-text3 a {
+    text-decoration: none; }
+  .home-wrapper .home-text .home-text3 a:hover {
+    transition: 2s;
+    color: lightskyblue;
+    cursor: pointer; }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
 @font-face {
@@ -324,7 +338,7 @@
 
 .mem-wrapper {
   color: #3f3f3f;
-  padding: 30px 5%;
+  padding: 30px 0;
   font-family: "roboreg";
   text-align: justify; }
   .mem-wrapper h1 {
@@ -332,38 +346,84 @@
     font-size: 30px;
     text-decoration: underline;
     margin-bottom: 10px; }
-  .mem-wrapper .mem-top h2 {
-    font-family: "roboreg";
-    font-style: italic;
-    font-size: 18px;
-    margin-bottom: 10px;
-    line-height: 25px; }
-  .mem-wrapper .mem-top h3 {
-    font-family: "roboreg";
-    line-height: 26px; }
-  .mem-wrapper .mem-top ul {
-    padding: 20px 20px;
-    color: #545454; }
-    .mem-wrapper .mem-top ul li {
-      font-family: "Open Sans", sans-serif;
+  .mem-wrapper .mem-top {
+    padding: 0 15px; }
+    .mem-wrapper .mem-top h2 {
+      font-family: "roboreg";
       font-style: italic;
-      font-size: 15px;
-      line-height: 35px; }
-  .mem-wrapper .mem-top img {
-    float: right;
-    height: 100px;
-    margin-left: 10px; }
+      font-size: 18px;
+      margin-bottom: 10px;
+      line-height: 25px; }
+    .mem-wrapper .mem-top h3 {
+      font-family: "roboreg";
+      line-height: 26px; }
+    .mem-wrapper .mem-top ul {
+      padding: 20px 20px;
+      color: #545454; }
+      .mem-wrapper .mem-top ul li {
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        font-size: 15px;
+        line-height: 35px; }
+    .mem-wrapper .mem-top img {
+      float: right;
+      height: 100px;
+      margin-left: 10px; }
   .mem-wrapper .mem-bottom {
-    padding-bottom: 20px; }
+    padding: 0 15px 20px 15px;
+    margin-bottom: 10px; }
     .mem-wrapper .mem-bottom p {
       font-size: 16px;
       line-height: 26px; }
     .mem-wrapper .mem-bottom p:first-of-type {
       margin-bottom: 15px; }
-  .mem-wrapper .mem-contact .mem-box {
-    width: 95%;
-    height: 300px;
-    background: skyblue; }
+  .mem-wrapper .contact {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 3%; }
+    .mem-wrapper .contact .contact-heading {
+      margin-bottom: 15px; }
+    .mem-wrapper .contact form {
+      background: #ddddde;
+      padding: 20px 10px;
+      border-radius: 2%; }
+      .mem-wrapper .contact form .contact-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .mem-wrapper .contact form .contact-info input {
+          font-size: 16px;
+          font-family: "Open Sans", sans-serif;
+          height: 40px;
+          width: 90%;
+          margin-bottom: 15px;
+          padding-left: 15px;
+          border-radius: 10px;
+          border: none;
+          outline: none; }
+        .mem-wrapper .contact form .contact-info textarea {
+          font-size: 16px;
+          font-family: "Open Sans", sans-serif;
+          width: 90%;
+          margin-bottom: 15px;
+          padding-left: 15px;
+          padding-top: 10px;
+          border-radius: 10px;
+          border: none;
+          outline: none; }
+        .mem-wrapper .contact form .contact-info button {
+          font-family: "Open Sans", sans-serif;
+          width: 93%;
+          height: 50px;
+          background: #658c1a;
+          color: #fff;
+          border: none;
+          font-size: 20px;
+          border-radius: 10px;
+          outline: none; }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

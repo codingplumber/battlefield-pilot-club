@@ -28,10 +28,18 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
     img {
       height: 215px;
       transform: rotate(180deg);
       border-radius: 5%;
     }
+  }
+  h2 {
+    font-size: 20px;
+    font-family: $robreg;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
   }
 }
