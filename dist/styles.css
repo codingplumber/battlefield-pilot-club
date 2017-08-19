@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
 @font-face {
   font-family: "averta";
   src: url(./fonts/averta-bold-5949306582138.otf); }
@@ -44,6 +45,7 @@
     font-style: italic; }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
 @font-face {
   font-family: "averta";
   src: url(./fonts/averta-bold-5949306582138.otf); }
@@ -91,6 +93,7 @@
     margin-right: 15px; }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
 @font-face {
   font-family: "averta";
   src: url(./fonts/averta-bold-5949306582138.otf); }
@@ -143,6 +146,7 @@
     font-size: 12px; }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
 @font-face {
   font-family: "averta";
   src: url(./fonts/averta-bold-5949306582138.otf); }
@@ -278,6 +282,7 @@
   left: 50%; }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
 @font-face {
   font-family: "averta";
   src: url(./fonts/averta-bold-5949306582138.otf); }
@@ -323,11 +328,11 @@
   .home-wrapper .home-text .home-text3 a {
     text-decoration: none; }
   .home-wrapper .home-text .home-text3 a:hover {
-    transition: 2s;
-    color: lightskyblue;
+    color: #608541;
     cursor: pointer; }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
 @font-face {
   font-family: "averta";
   src: url(./fonts/averta-bold-5949306582138.otf); }
@@ -404,6 +409,8 @@
           border-radius: 10px;
           border: none;
           outline: none; }
+        .mem-wrapper .contact form .contact-info input:focus {
+          background: #fffff5; }
         .mem-wrapper .contact form .contact-info textarea {
           font-size: 16px;
           font-family: "Open Sans", sans-serif;
@@ -414,16 +421,106 @@
           border-radius: 10px;
           border: none;
           outline: none; }
+        .mem-wrapper .contact form .contact-info textarea:focus {
+          background: #fffff5; }
         .mem-wrapper .contact form .contact-info button {
           font-family: "Open Sans", sans-serif;
           width: 93%;
           height: 50px;
-          background: #658c1a;
+          background: #608541;
           color: #fff;
           border: none;
           font-size: 20px;
           border-radius: 10px;
           outline: none; }
+        .mem-wrapper .contact form .contact-info button:hover {
+          background: #fff;
+          color: #608541;
+          transition: all .5s; }
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
+@font-face {
+  font-family: "averta";
+  src: url(./fonts/averta-bold-5949306582138.otf); }
+
+@font-face {
+  font-family: "roboreg";
+  src: url(./fonts/Roboto-Slab-Regular/RobotoSlab-Regular.ttf); }
+
+.projects-wrapper {
+  color: #3f3f3f;
+  padding: 30px 15px;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 500;
+  text-align: justify; }
+  .projects-wrapper .projects-top {
+    margin-bottom: 20px; }
+    .projects-wrapper .projects-top figcaption {
+      font-size: 22px;
+      line-height: 27px; }
+      .projects-wrapper .projects-top figcaption span {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 23px;
+        color: #5b3e3a; }
+    .projects-wrapper .projects-top img {
+      height: 100px;
+      float: right;
+      margin-left: 10px; }
+  .projects-wrapper .project-body {
+    margin-bottom: 15px; }
+    .projects-wrapper .project-body p {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 20px; }
+      .projects-wrapper .project-body p .injury {
+        font-weight: 600;
+        font-size: 19px; }
+      .projects-wrapper .project-body p .foundation {
+        font-weight: 600; }
+      .projects-wrapper .project-body p .safe {
+        font-size: 19px;
+        font-weight: bold;
+        font-style: italic;
+        color: #5b3e3a; }
+      .projects-wrapper .project-body p .project-number {
+        font-size: 19px;
+        font-weight: 600; }
+    .projects-wrapper .project-body h4 {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      margin-bottom: 15px; }
+    .projects-wrapper .project-body ul {
+      padding: 0 20px;
+      margin-bottom: 15px; }
+      .projects-wrapper .project-body ul li {
+        font-size: 18px;
+        font-style: italic;
+        line-height: 27px; }
+  .projects-wrapper .projects-bottom img {
+    float: left;
+    height: 90px;
+    margin-right: 10px; }
+  .projects-wrapper .projects-bottom figcaption {
+    color: #5b3e3a;
+    font-style: italic;
+    line-height: 20px;
+    margin-bottom: 15px; }
+  .projects-wrapper .projects-bottom .safe-link {
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+    .projects-wrapper .projects-bottom .safe-link a {
+      font-size: 27px;
+      font-weight: bold;
+      font-style: italic;
+      color: #5b3e3a;
+      text-decoration: none; }
+    .projects-wrapper .projects-bottom .safe-link a:hover {
+      color: #608541;
+      cursor: pointer; }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

@@ -82,6 +82,9 @@
           border: none;
           outline: none;
         }
+        input:focus {
+          background: #fffff5;
+        }
         textarea {
           font-size: 16px;
           font-family: $sans;
@@ -93,16 +96,24 @@
           border: none;
           outline: none;
         }
+        textarea:focus {
+          background: #fffff5;
+        }
         button {
           font-family: $sans;
           width: 93%;
           height: 50px;
-          background: #658c1a;
+          background: #608541;
           color: #fff;
           border: none;
           font-size: 20px;
           border-radius: 10px;
           outline: none;
+        }
+        button:hover {
+          background: #fff;
+          color: #608541;
+          transition: all .5s;
         }
       }
     }

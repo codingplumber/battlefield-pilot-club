@@ -1,0 +1,100 @@
+@import 'fonts';
+
+// $cor
+
+.projects-wrapper {
+  color: #3f3f3f;
+  padding: 30px 15px;
+  font-family: $cor;
+  font-weight: 500;
+  text-align: justify;
+  .projects-top {
+    margin-bottom: 20px;
+    figcaption {
+      font-size: 22px;
+      line-height: 27px;
+      span {
+        font-weight: bold;
+        font-style: italic;
+        font-size: 23px;
+        color: #5b3e3a;
+      }
+    }
+    img {
+      height: 100px;
+      float: right;
+      margin-left: 10px;
+    }
+  }
+
+  .project-body {
+    margin-bottom: 15px;
+    p {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 20px;
+      .injury {
+        font-weight: 600;
+        font-size: 19px;
+      }
+      .foundation {
+        font-weight: 600;
+      }
+      .safe {
+        font-size: 19px;
+        font-weight: bold;
+        font-style: italic;
+        color: #5b3e3a;
+      }
+      .project-number {
+        font-size: 19px;
+        font-weight: 600;
+      }
+    }
+    h4 {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 24px;
+      margin-bottom: 15px;
+    }
+    ul {
+      padding: 0 20px;
+      margin-bottom: 15px;
+      li {
+        font-size: 18px;
+        font-style: italic;
+        line-height: 27px;
+      }
+    }
+  }
+
+  .projects-bottom {
+    img {
+      float: left;
+      height: 90px;
+      margin-right: 10px;
+    }
+    figcaption {
+      color: #5b3e3a;
+      font-style: italic;
+      line-height: 20px;
+      margin-bottom: 15px;
+    }
+    .safe-link {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      a {
+        font-size: 27px;
+        font-weight: bold;
+        font-style: italic;
+        color: #5b3e3a;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #608541;
+        cursor: pointer;
+      }
+    }
+  }
+}
