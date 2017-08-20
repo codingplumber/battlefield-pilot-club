@@ -63,7 +63,7 @@ angular.module('app')
 
         TweenMax.fromTo(element, 0.5, { left: startPoint }, {left: 0, onComplete: done });
       }
-    else {
+      else {
         done();
       }
     }
