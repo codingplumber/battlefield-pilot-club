@@ -38,7 +38,6 @@
     flex-direction: column;
     padding-top: 10px;
     img {
-      // max-width: 80%;
       width: 256px;
       background-size: cover;
       object-fit: contain;
@@ -46,11 +45,11 @@
     }
     figcaption {
       width: 100%;
-      padding: 13px 5px;
+      padding: 13px 5px 13px 10px;
       background: #013765;
       color: #fff;
       text-align: center;
-      letter-spacing: .75em;
+      letter-spacing: .65em;
       font-feature-settings: "liga" 0;
       font-size: 14px;
     }

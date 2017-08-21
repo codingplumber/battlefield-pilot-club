@@ -64,7 +64,7 @@ angular.module('app').directive('header', function () {
 
 angular.module('app').controller('homeCtrl', function ($scope) {
 
-  $scope.slides = [{ image: './images/home/slider/pic1.jpg', description: 'Image 00' }, { image: './images/home/slider/pic2.jpg', description: 'Image 01' }, { image: './images/home/slider/pic3.png', description: 'Image 02' }, { image: './images/home/slider/pic4.jpg', description: 'Image 03' }, { image: './images/home/slider/pic5.jpg', description: 'Image 04' }];
+  $scope.slides = [{ image: './images/home/slider/pic2.jpg', description: 'Image 00' }, { image: './images/home/slider/pic3.jpg', description: 'Image 01' }, { image: './images/home/slider/pic4.jpg', description: 'Image 02' }, { image: './images/home/slider/pic7.jpg', description: 'Image 03' }, { image: './images/home/slider/pic6.jpg', description: 'Image 04' }];
 
   $scope.direction = 'left';
   $scope.currentIndex = 0;
