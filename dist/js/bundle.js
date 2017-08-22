@@ -64,7 +64,7 @@ angular.module('app').directive('header', function () {
 
 angular.module('app').controller('homeCtrl', function ($scope) {
 
-  $scope.slides = [{ image: './images/home/slider/pic2.jpg', description: 'Image 00' }, { image: './images/home/slider/pic3.jpg', description: 'Image 01' }, { image: './images/home/slider/pic4.jpg', description: 'Image 02' }, { image: './images/home/slider/pic7.jpg', description: 'Image 03' }, { image: './images/home/slider/pic6.jpg', description: 'Image 04' }];
+  $scope.slides = [{ image: './images/home/slider/pic2.jpg', description: 'Image 00' }, { image: './images/home/slider/pic3.jpg', description: 'Image 01' }, { image: './images/home/slider/pic4.jpg', description: 'Image 02' }, { image: './images/home/slider/pic7.jpg', description: 'Image 03' }, { image: './images/home/slider/pic6.jpg', description: 'Image 03' }];
 
   $scope.direction = 'left';
   $scope.currentIndex = 0;
@@ -118,6 +118,27 @@ angular.module('app').controller('homeCtrl', function ($scope) {
       } else {
         done();
       }
+    }
+  };
+});
+'use strict';
+
+angular.module('app').directive('navScroll', function () {
+
+  return {
+    restrict: 'A',
+    link: function link(scope, elem, att) {
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(window).scrollTop() >= 154) {
+            elem.addClass('scroll-fix');
+            elem.children().css({ "color": "#fff" });
+          } else if ($(window).scrollTop() < 155) {
+            elem.removeClass('scroll-fix');
+            elem.children().css({ "color": "#013765" });
+          }
+        });
+      });
     }
   };
 });

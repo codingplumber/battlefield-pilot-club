@@ -6,7 +6,7 @@ angular.module('app')
     {image: './images/home/slider/pic3.jpg', description: 'Image 01'},
     {image: './images/home/slider/pic4.jpg', description: 'Image 02'},
     {image: './images/home/slider/pic7.jpg', description: 'Image 03'},
-    {image: './images/home/slider/pic6.jpg', description: 'Image 04'}
+    {image: './images/home/slider/pic6.jpg', description: 'Image 03'}
   ];
 
   $scope.direction = 'left';
