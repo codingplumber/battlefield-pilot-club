@@ -102,6 +102,115 @@
     float: left;
     margin-right: 15px; }
 
+@media (min-width: 645px) {
+  .ethics-wrapper {
+    padding: 45px 6%; }
+    .ethics-wrapper .ethics h1 {
+      font-size: 35px;
+      margin-bottom: 25px; }
+    .ethics-wrapper .ethics img:first-of-type {
+      height: 200px;
+      margin-left: 20px; }
+    .ethics-wrapper .ethics h2 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      line-height: 34px; }
+    .ethics-wrapper .ethics h2:first-of-type {
+      margin-bottom: 35px; }
+    .ethics-wrapper .ethics h3 {
+      font-size: 18px;
+      line-height: 35px; }
+    .ethics-wrapper .ethics ul {
+      padding: 20px 25px; }
+      .ethics-wrapper .ethics ul li {
+        font-size: 16px;
+        line-height: 36px;
+        margin-bottom: 14px; }
+    .ethics-wrapper .ethics img:last-of-type {
+      margin-right: 17px; } }
+
+@media (min-width: 900px) {
+  .ethics-wrapper {
+    padding: 55px 6%; }
+    .ethics-wrapper .ethics h1 {
+      font-size: 40px;
+      margin-bottom: 30px; }
+    .ethics-wrapper .ethics img:first-of-type {
+      height: 225px;
+      margin-left: 25px; }
+    .ethics-wrapper .ethics h2 {
+      font-size: 22px;
+      margin-bottom: 17px;
+      line-height: 37px; }
+    .ethics-wrapper .ethics h2:first-of-type {
+      margin-bottom: 37px; }
+    .ethics-wrapper .ethics h3 {
+      font-size: 20px;
+      line-height: 37px; }
+    .ethics-wrapper .ethics ul {
+      padding: 22px 35px; }
+      .ethics-wrapper .ethics ul li {
+        font-size: 18px;
+        line-height: 38px;
+        margin-bottom: 16px; }
+    .ethics-wrapper .ethics img:last-of-type {
+      margin-right: 17px; } }
+
+@media (min-width: 1200px) {
+  .ethics-wrapper {
+    padding: 60px 6%; }
+    .ethics-wrapper .ethics h1 {
+      font-size: 45px;
+      margin-bottom: 35px; }
+    .ethics-wrapper .ethics img:first-of-type {
+      height: 260px;
+      margin-left: 30px; }
+    .ethics-wrapper .ethics h2 {
+      font-size: 23px;
+      margin-bottom: 18px;
+      line-height: 39px; }
+    .ethics-wrapper .ethics h2:first-of-type {
+      margin-bottom: 38px; }
+    .ethics-wrapper .ethics h3 {
+      font-size: 21px;
+      line-height: 38px; }
+    .ethics-wrapper .ethics ul {
+      padding: 25px 40px; }
+      .ethics-wrapper .ethics ul li {
+        font-size: 19px;
+        line-height: 39px;
+        margin-bottom: 17px; }
+    .ethics-wrapper .ethics img:last-of-type {
+      margin-right: 18px; } }
+
+@media (min-width: 1500px) {
+  .ethics-wrapper {
+    padding: 70px 6%; }
+    .ethics-wrapper .ethics h1 {
+      font-size: 50px;
+      margin-bottom: 40px; }
+    .ethics-wrapper .ethics img:first-of-type {
+      height: 300px;
+      margin-left: 35px; }
+    .ethics-wrapper .ethics h2 {
+      font-size: 24px;
+      margin-bottom: 19px;
+      line-height: 40px; }
+    .ethics-wrapper .ethics h2:first-of-type {
+      margin-bottom: 39px; }
+    .ethics-wrapper .ethics h3 {
+      font-size: 22px;
+      line-height: 39px; }
+    .ethics-wrapper .ethics ul {
+      padding: 27px 50px; }
+      .ethics-wrapper .ethics ul li {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 18px; }
+    .ethics-wrapper .ethics img:last-of-type {
+      margin-right: 19px;
+      padding-top: 13px; } }
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
 @font-face {
