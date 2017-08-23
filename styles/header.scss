@@ -197,6 +197,10 @@
             color: #013765;
             font-family: $robreg;
           }
+          a:hover {
+            color: #608541;
+            transition: all .5s;
+          }
         }
       }
     }
