@@ -300,7 +300,8 @@
       text-align: center;
       letter-spacing: .65em;
       font-feature-settings: "liga" 0;
-      font-size: 14px; }
+      font-size: 14px;
+      font-family: "Cormorant Garamond", serif; }
 
 .shadow {
   -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
@@ -442,7 +443,8 @@
         letter-spacing: .3em;
         font-feature-settings: "liga" 0; }
         .full-h-wrapper .full-h-logo div p {
-          color: #013765; } }
+          color: #013765;
+          font-family: "Cormorant Garamond", serif; } }
 
 @media (min-width: 700px) {
   .full-h-wrapper .full-h-logo div {
@@ -961,6 +963,42 @@ NAV
     .projects-wrapper .projects-bottom .safe-link a:hover {
       color: #608541;
       cursor: pointer; }
+
+@media (min-width: 645px) {
+  .projects-wrapper {
+    padding: 40px 32px; }
+    .projects-wrapper .projects-top {
+      margin-bottom: 20px; }
+      .projects-wrapper .projects-top figcaption {
+        font-size: 29px;
+        line-height: 34px; }
+        .projects-wrapper .projects-top figcaption span {
+          font-size: 30px; }
+      .projects-wrapper .projects-top img {
+        height: 145px; }
+    .projects-wrapper .project-body p {
+      font-size: 20px;
+      line-height: 26px; }
+      .projects-wrapper .project-body p .injury {
+        font-size: 21px; }
+      .projects-wrapper .project-body p .safe {
+        font-size: 21px; }
+      .projects-wrapper .project-body p .project-number {
+        font-size: 21px; }
+    .projects-wrapper .project-body h4 {
+      font-size: 22px;
+      line-height: 26px; }
+    .projects-wrapper .project-body ul li {
+      font-size: 20px;
+      line-height: 29px; }
+    .projects-wrapper .projects-bottom img {
+      height: 125px; }
+    .projects-wrapper .projects-bottom figcaption {
+      font-size: 18px;
+      line-height: 25px;
+      padding-top: 18px; }
+    .projects-wrapper .projects-bottom .safe-link a {
+      font-size: 35px; } }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,

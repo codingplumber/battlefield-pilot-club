@@ -1,7 +1,5 @@
 @import 'fonts';
 
-// $cor
-
 .projects-wrapper {
   color: #3f3f3f;
   padding: 30px 15px;
@@ -94,6 +92,68 @@
       a:hover {
         color: #608541;
         cursor: pointer;
+      }
+    }
+  }
+}
+
+//////////// 645 ///////////////////
+@media (min-width: 645px) {
+  .projects-wrapper {
+    padding: 40px 32px;
+    .projects-top {
+      margin-bottom: 20px;
+      figcaption {
+        font-size: 29px;
+        line-height: 34px;
+        span {
+          font-size: 30px;
+        }
+      }
+      img {
+        height: 145px;
+      }
+    }
+
+    .project-body {
+      p {
+        font-size: 20px;
+        line-height: 26px;
+        .injury {
+          font-size: 21px;
+        }
+        .safe {
+          font-size: 21px;
+        }
+        .project-number {
+          font-size: 21px;
+        }
+      }
+      h4 {
+        font-size: 22px;
+        line-height: 26px;
+      }
+      ul {
+        li {
+          font-size: 20px;
+          line-height: 29px;
+        }
+      }
+    }
+
+    .projects-bottom {
+      img {
+        height: 125px;
+      }
+      figcaption {
+        font-size: 18px;
+        line-height: 25px;
+        padding-top: 18px;
+      }
+      .safe-link {
+        a {
+          font-size: 35px;
+        }
       }
     }
   }

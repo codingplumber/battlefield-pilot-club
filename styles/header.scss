@@ -51,6 +51,7 @@
       letter-spacing: .65em;
       font-feature-settings: "liga" 0;
       font-size: 14px;
+      font-family: $cor;
     }
   }
 }
@@ -231,6 +232,7 @@
         font-feature-settings: "liga" 0;
         p {
           color: #013765;
+          font-family: $cor;
         }
       }
     }
