@@ -43,3 +43,140 @@
     font-style: italic;
   }
 }
+
+//////////// 500 ///////////////////
+@media (min-width: 500px) {
+  .board-wrapper {
+    padding: 35px 5%;
+    .board-img {
+      margin-bottom: 25px;
+      img {
+        height: 275px;
+        border-radius: 6%;
+      }
+    }
+  }
+}
+
+//////////// 600 ///////////////////
+@media (min-width: 600px) {
+  .board-wrapper {
+    padding: 40px 6%;
+    .board-img {
+      margin-bottom: 30px;
+      img {
+        height: 365px;
+        border-radius: 7%;
+      }
+    }
+  }
+}
+
+//////////// 645 ///////////////////
+@media (min-width: 645px) {
+  .board-wrapper {
+    padding: 50px 6%;
+    h1 {
+      font-size: 35px;
+      margin-bottom: 17px;
+    }
+    ul {
+      margin-bottom: 40px;
+      padding: 0 20px;
+      li {
+        line-height: 40px;
+        font-size: 21px;
+        span {
+          font-size: 24px;
+        }
+      }
+    }
+    .board-img {
+      margin-bottom: 40px;
+      img {
+        height: 400px;
+        border-radius: 8%;
+      }
+    }
+    h2 {
+      font-size: 26px;
+    }
+  }
+}
+
+//////////// 900 ///////////////////
+@media (min-width: 900px) {
+  .board-wrapper {
+    padding: 55px 7%;
+    h1 {
+      font-size: 45px;
+      margin-bottom: 20px;
+    }
+    ul {
+      margin-bottom: 50px;
+      padding: 0 30px;
+      li {
+        line-height: 50px;
+        font-size: 24px;
+        span {
+          font-size: 27px;
+        }
+      }
+    }
+    .board-img {
+      margin-bottom: 50px;
+      img {
+        height: 560px;
+        border-radius: 8%;
+      }
+    }
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
+
+//////////// 1200 ///////////////////
+@media (min-width: 1200px) {
+  .board-wrapper {
+    padding: 65px 7%;
+    h1 {
+      font-size: 50px;
+      margin-bottom: 30px;
+    }
+    ul {
+      margin-bottom: 60px;
+      padding: 0 40px;
+      li {
+        line-height: 60px;
+        font-size: 27px;
+        span {
+          font-size: 30px;
+        }
+      }
+    }
+    .board-img {
+      margin-bottom: 60px;
+      img {
+        height: 772px;
+      }
+    }
+    h2 {
+      font-size: 35px;
+    }
+  }
+}
+
+//////////// 1500 ///////////////////
+@media (min-width: 1500px) {
+  .board-wrapper {
+    padding: 75px 8%
+    ul {
+      margin-bottom: 70px;
+      padding: 0 45px;
+    }
+    .board-img {
+      margin-bottom: 70px;
+    }
+  }
+}

@@ -44,6 +44,97 @@
     text-align: center;
     font-style: italic; }
 
+@media (min-width: 500px) {
+  .board-wrapper {
+    padding: 35px 5%; }
+    .board-wrapper .board-img {
+      margin-bottom: 25px; }
+      .board-wrapper .board-img img {
+        height: 275px;
+        border-radius: 6%; } }
+
+@media (min-width: 600px) {
+  .board-wrapper {
+    padding: 40px 6%; }
+    .board-wrapper .board-img {
+      margin-bottom: 30px; }
+      .board-wrapper .board-img img {
+        height: 365px;
+        border-radius: 7%; } }
+
+@media (min-width: 645px) {
+  .board-wrapper {
+    padding: 50px 6%; }
+    .board-wrapper h1 {
+      font-size: 35px;
+      margin-bottom: 17px; }
+    .board-wrapper ul {
+      margin-bottom: 40px;
+      padding: 0 20px; }
+      .board-wrapper ul li {
+        line-height: 40px;
+        font-size: 21px; }
+        .board-wrapper ul li span {
+          font-size: 24px; }
+    .board-wrapper .board-img {
+      margin-bottom: 40px; }
+      .board-wrapper .board-img img {
+        height: 400px;
+        border-radius: 8%; }
+    .board-wrapper h2 {
+      font-size: 26px; } }
+
+@media (min-width: 900px) {
+  .board-wrapper {
+    padding: 55px 7%; }
+    .board-wrapper h1 {
+      font-size: 45px;
+      margin-bottom: 20px; }
+    .board-wrapper ul {
+      margin-bottom: 50px;
+      padding: 0 30px; }
+      .board-wrapper ul li {
+        line-height: 50px;
+        font-size: 24px; }
+        .board-wrapper ul li span {
+          font-size: 27px; }
+    .board-wrapper .board-img {
+      margin-bottom: 50px; }
+      .board-wrapper .board-img img {
+        height: 560px;
+        border-radius: 8%; }
+    .board-wrapper h2 {
+      font-size: 30px; } }
+
+@media (min-width: 1200px) {
+  .board-wrapper {
+    padding: 65px 7%; }
+    .board-wrapper h1 {
+      font-size: 50px;
+      margin-bottom: 30px; }
+    .board-wrapper ul {
+      margin-bottom: 60px;
+      padding: 0 40px; }
+      .board-wrapper ul li {
+        line-height: 60px;
+        font-size: 27px; }
+        .board-wrapper ul li span {
+          font-size: 30px; }
+    .board-wrapper .board-img {
+      margin-bottom: 60px; }
+      .board-wrapper .board-img img {
+        height: 772px; }
+    .board-wrapper h2 {
+      font-size: 35px; } }
+
+@media (min-width: 1500px) {
+  .board-wrapper {
+    padding: 75px 8% ul;
+      padding-margin-bottom: 70px;
+      padding-padding: 0 45px; }
+    .board-wrapper .board-img {
+      margin-bottom: 70px; } }
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
 @font-face {
