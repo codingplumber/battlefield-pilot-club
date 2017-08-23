@@ -102,12 +102,11 @@
   .projects-wrapper {
     padding: 40px 32px;
     .projects-top {
-      margin-bottom: 20px;
       figcaption {
-        font-size: 29px;
-        line-height: 34px;
+        font-size: 31px;
+        line-height: 36px;
         span {
-          font-size: 30px;
+          font-size: 32px;
         }
       }
       img {
@@ -118,7 +117,7 @@
     .project-body {
       p {
         font-size: 20px;
-        line-height: 26px;
+        line-height: 34px;
         .injury {
           font-size: 21px;
         }
@@ -130,13 +129,15 @@
         }
       }
       h4 {
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 23px;
+        line-height: 27px;
       }
       ul {
+        padding: 0 35px;
+        margin-bottom: 20px;
         li {
           font-size: 20px;
-          line-height: 29px;
+          line-height: 40px;
         }
       }
     }
@@ -149,10 +150,211 @@
         font-size: 18px;
         line-height: 25px;
         padding-top: 18px;
+        margin-bottom: 40px;
       }
       .safe-link {
         a {
           font-size: 35px;
+        }
+      }
+    }
+  }
+}
+
+//////////// 900 ///////////////////
+@media (min-width: 900px) {
+  .projects-wrapper {
+    padding: 50px 45px;
+    .projects-top {
+      margin-bottom: 25px;
+      figcaption {
+        font-size: 32px;
+        line-height: 37px;
+        span {
+          font-size: 33px;
+        }
+      }
+      img {
+        height: 175px;
+      }
+    }
+
+    .project-body {
+      margin-bottom: 25px;
+      p {
+        font-size: 22px;
+        line-height: 36px;
+        margin-bottom: 25px;
+        .injury {
+          font-size: 23px;
+        }
+        .safe {
+          font-size: 23px;
+        }
+        .project-number {
+          font-size: 23px;
+        }
+      }
+      h4 {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 16px;
+      }
+      ul {
+        li {
+          font-size: 22px;
+          line-height: 45px;
+        }
+      }
+    }
+
+    .projects-bottom {
+      img {
+        height: 150px;
+      }
+      figcaption {
+        font-size: 20px;
+        line-height: 27px;
+        padding-top: 25px;
+        margin-bottom: 55px;
+      }
+      .safe-link {
+        a {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+}
+
+//////////// 1200 ///////////////////
+@media (min-width: 1200px) {
+  .projects-wrapper {
+    padding: 62px 52px;
+    .projects-top {
+      margin-bottom: 27px;
+      figcaption {
+        font-size: 34px;
+        line-height: 40px;
+        span {
+          font-size: 35px;
+        }
+      }
+      img {
+        height: 220px;
+      }
+    }
+
+    .project-body {
+      margin-bottom: 27px;
+      p {
+        font-size: 24px;
+        line-height: 38px;
+        margin-bottom: 27px;
+        .injury {
+          font-size: 25px;
+        }
+        .safe {
+          font-size: 25px;
+        }
+        .project-number {
+          font-size: 25px;
+        }
+      }
+      h4 {
+        font-size: 27px;
+        line-height: 32px;
+        margin-bottom: 18px;
+      }
+      ul {
+        li {
+          font-size: 24px;
+          line-height: 42px;
+        }
+      }
+    }
+
+    .projects-bottom {
+      img {
+        height: 195px;
+      }
+      figcaption {
+        font-size: 22px;
+        line-height: 29px;
+        padding-top: 33px;
+        margin-bottom: 120px;
+      }
+      .safe-link {
+        a {
+          font-size: 42px;
+        }
+      }
+    }
+  }
+}
+
+//////////// 1500 ///////////////////
+@media (min-width: 1500px) {
+  .projects-wrapper {
+    padding: 75px 65px;
+    .projects-top {
+      margin-bottom: 30px;
+      figcaption {
+        font-size: 40px;
+        line-height: 50px;
+        span {
+          font-size: 41px;
+        }
+      }
+      img {
+        height: 275px;
+        margin-left: 25px;
+      }
+    }
+
+    .project-body {
+      margin-bottom: 30px;
+      p {
+        font-size: 26px;
+        line-height: 40px;
+        margin-bottom: 30px;
+        .injury {
+          font-size: 27px;
+        }
+        .safe {
+          font-size: 27px;
+        }
+        .project-number {
+          font-size: 27px;
+        }
+      }
+      h4 {
+        font-size: 29px;
+        line-height: 34px;
+        margin-bottom: 21px;
+      }
+      ul {
+        li {
+          font-size: 26px;
+          line-height: 44px;
+        }
+      }
+    }
+
+    .projects-bottom {
+      img {
+        height: 250px;
+        margin-right: 25px;
+      }
+      figcaption {
+        font-size: 24px;
+        line-height: 33px;
+        padding-top: 46px;
+        margin-bottom: 155px;
+      }
+      .safe-link {
+        a {
+          font-size: 50px;
         }
       }
     }
