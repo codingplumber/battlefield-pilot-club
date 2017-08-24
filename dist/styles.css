@@ -988,21 +988,19 @@ NAV
   padding: 30px 0;
   font-family: "roboreg";
   text-align: justify; }
-  .mem-wrapper h1 {
-    font-family: "averta";
-    font-size: 30px;
-    text-decoration: underline;
-    margin-bottom: 10px; }
   .mem-wrapper .mem-top {
     padding: 0 15px; }
+    .mem-wrapper .mem-top h1 {
+      font-family: "averta";
+      font-size: 30px;
+      text-decoration: underline;
+      margin-bottom: 10px; }
     .mem-wrapper .mem-top h2 {
-      font-family: "roboreg";
       font-style: italic;
       font-size: 18px;
       margin-bottom: 10px;
       line-height: 25px; }
     .mem-wrapper .mem-top h3 {
-      font-family: "roboreg";
       line-height: 26px; }
     .mem-wrapper .mem-top ul {
       padding: 20px 20px;
@@ -1031,6 +1029,9 @@ NAV
     text-align: center;
     margin-left: 3%; }
     .mem-wrapper .contact .contact-heading {
+      font-family: "averta";
+      font-size: 30px;
+      text-decoration: underline;
       margin-bottom: 15px; }
     .mem-wrapper .contact form {
       background: #ddddde;
@@ -1067,18 +1068,156 @@ NAV
           background: #fffff5; }
         .mem-wrapper .contact form .contact-info button {
           font-family: "Open Sans", sans-serif;
-          width: 93%;
+          width: 33.333%;
           height: 50px;
-          background: #608541;
+          background: #013765;
           color: #fff;
           border: none;
           font-size: 20px;
           border-radius: 10px;
           outline: none; }
         .mem-wrapper .contact form .contact-info button:hover {
-          background: #fff;
-          color: #608541;
-          transition: all .5s; }
+          background: #608541;
+          color: #fff;
+          transition: all .5s;
+          cursor: pointer; }
+
+@media (min-width: 645px) {
+  .mem-wrapper {
+    padding: 45px 2%; }
+    .mem-wrapper .mem-top h1 {
+      font-size: 35px;
+      margin-bottom: 20px; }
+    .mem-wrapper .mem-top h2 {
+      font-size: 21px;
+      margin-bottom: 13px;
+      line-height: 28px; }
+    .mem-wrapper .mem-top h3 {
+      font-size: 18px;
+      line-height: 29px; }
+    .mem-wrapper .mem-top ul {
+      padding: 18px 26px; }
+      .mem-wrapper .mem-top ul li {
+        font-size: 17px;
+        line-height: 38px; }
+    .mem-wrapper .mem-top img {
+      height: 150px;
+      margin-left: 15px; }
+    .mem-wrapper .mem-bottom {
+      padding: 0 15px 25px 15px;
+      margin-bottom: 15px; }
+      .mem-wrapper .mem-bottom p {
+        font-size: 17px;
+        line-height: 28px; }
+      .mem-wrapper .mem-bottom p:first-of-type {
+        margin-bottom: 17px; }
+    .mem-wrapper .contact .contact-heading {
+      margin-bottom: 20px; }
+    .mem-wrapper .contact form {
+      border-radius: 4%; } }
+
+@media (min-width: 900px) {
+  .mem-wrapper {
+    padding: 55px 4%; }
+    .mem-wrapper .mem-top h1 {
+      font-size: 40px;
+      margin-bottom: 25px; }
+    .mem-wrapper .mem-top h2 {
+      font-size: 25px;
+      margin-bottom: 17px;
+      line-height: 30px; }
+    .mem-wrapper .mem-top h3 {
+      font-size: 19px;
+      line-height: 30px; }
+    .mem-wrapper .mem-top ul {
+      padding: 18px 35px; }
+      .mem-wrapper .mem-top ul li {
+        font-size: 18px;
+        line-height: 40px; }
+    .mem-wrapper .mem-top img {
+      height: 175px;
+      margin-left: 20px; }
+    .mem-wrapper .mem-bottom p {
+      font-size: 18px;
+      line-height: 29px; }
+    .mem-wrapper .mem-bottom p:first-of-type {
+      margin-bottom: 19px; }
+    .mem-wrapper .contact .contact-heading {
+      margin-bottom: 22px; }
+    .mem-wrapper .contact form {
+      border-radius: 25px; } }
+
+@media (min-width: 1200px) {
+  .mem-wrapper {
+    padding: 65px 7%; }
+    .mem-wrapper .mem-top h1 {
+      font-size: 45px;
+      margin-bottom: 30px; }
+    .mem-wrapper .mem-top h2 {
+      font-size: 30px;
+      margin-bottom: 22px;
+      line-height: 35px; }
+    .mem-wrapper .mem-top h3 {
+      font-size: 21px;
+      line-height: 32px; }
+    .mem-wrapper .mem-top ul {
+      padding: 20px 45px; }
+      .mem-wrapper .mem-top ul li {
+        font-size: 20px;
+        line-height: 45px; }
+    .mem-wrapper .mem-top img {
+      height: 250px;
+      margin-left: 30px; }
+    .mem-wrapper .mem-bottom {
+      margin-bottom: 25px; }
+      .mem-wrapper .mem-bottom p {
+        font-size: 19px;
+        line-height: 33px; }
+      .mem-wrapper .mem-bottom p:first-of-type {
+        margin-bottom: 22px; }
+    .mem-wrapper .contact .contact-heading {
+      font-size: 35px;
+      margin-bottom: 30px; }
+    .mem-wrapper .contact form {
+      border-radius: 30px; }
+      .mem-wrapper .contact form .contact-info textarea {
+        height: 225px; } }
+
+@media (min-width: 1500px) {
+  .mem-wrapper {
+    padding: 75px 8%; }
+    .mem-wrapper .mem-top h1 {
+      font-size: 55px;
+      margin-bottom: 35px; }
+    .mem-wrapper .mem-top h2 {
+      font-size: 35px;
+      margin-bottom: 27px;
+      line-height: 40px; }
+    .mem-wrapper .mem-top h3 {
+      font-size: 23px;
+      line-height: 36px; }
+    .mem-wrapper .mem-top ul {
+      padding: 23px 55px; }
+      .mem-wrapper .mem-top ul li {
+        font-size: 22px;
+        line-height: 50px; }
+    .mem-wrapper .mem-top img {
+      height: 285px;
+      margin-left: 35px; }
+    .mem-wrapper .mem-bottom {
+      margin-bottom: 55px; }
+      .mem-wrapper .mem-bottom p {
+        font-size: 20px;
+        line-height: 37px; }
+      .mem-wrapper .mem-bottom p:first-of-type {
+        margin-bottom: 27px; }
+    .mem-wrapper .contact .contact-heading {
+      font-size: 40px;
+      margin-bottom: 35px; }
+    .mem-wrapper .contact form {
+      border-radius: 30px; }
+      .mem-wrapper .contact form .contact-info textarea {
+        height: 275px; } }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
