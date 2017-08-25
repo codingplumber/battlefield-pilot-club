@@ -49,15 +49,27 @@
   }
 }
 
+//////////// 477 ///////////////////
+@media (min-width: 477px) {
+  .home-wrapper {
+    .home-slider {
+      padding: 35px 0 15px 8%;
+    }
+  }
+}
+
+//////////// 596 ///////////////////
+@media (min-width: 596px) {
+  .home-wrapper {
+    .home-slider {
+      padding: 40px 0 15px 8%;
+    }
+  }
+}
+
 //////////// 645 ///////////////////
 @media (min-width: 645px) {
   .home-wrapper {
-    // .home-slider {
-    //   display: flex;
-    //   justify-content: center;
-    //   padding: 20px 5%;
-    // }
-
     .home-text {
       padding: 15px 6% 40px 6%;
       .home-text1 {
@@ -84,15 +96,18 @@
   }
 }
 
+//////////// 676 ///////////////////
+@media (min-width: 676px) {
+  .home-wrapper {
+    .home-slider {
+      padding: 50px 0 15px 8%;
+    }
+  }
+}
+
 //////////// 900 ///////////////////
 @media (min-width: 900px) {
   .home-wrapper {
-    // .home-slider {
-    //   display: flex;
-    //   justify-content: center;
-    //   padding: 20px 5%;
-    // }
-
     .home-text {
       padding: 20px 8% 50px 8%;
       .home-text1 {
@@ -119,14 +134,32 @@
   }
 }
 
+//////////// 1000 ///////////////////
+@media (min-width: 1000px) {
+  .home-wrapper {
+    .home-slider {
+      padding: 60px 0 15px 8%;
+    }
+  }
+}
+
+//////////// 1100 ///////////////////
+@media (min-width: 1100px) {
+  .home-wrapper {
+    .home-slider {
+        width: 90%;
+      padding: 60px 0 15px 10%;
+    }
+  }
+}
+
 //////////// 1200 ///////////////////
 @media (min-width: 1200px) {
   .home-wrapper {
-    // .home-slider {
-    //   display: flex;
-    //   justify-content: center;
-    //   padding: 20px 5%;
-    // }
+    .home-slider {
+      width: 88%;
+      padding: 60px 0 15px 12%;
+    }
 
     .home-text {
       padding: 30px 9% 60px 9%;
@@ -154,14 +187,33 @@
   }
 }
 
+//////////// 1300 ///////////////////
+@media (min-width: 1300px) {
+  .home-wrapper {
+    .home-slider {
+      width: 87%;
+      padding: 60px 0 15px 13%;
+    }
+  }
+}
+
+//////////// 1400 ///////////////////
+@media (min-width: 1400px) {
+  .home-wrapper {
+    .home-slider {
+      width: 86%;
+      padding: 60px 0 15px 14%;
+    }
+  }
+}
+
 //////////// 1500 ///////////////////
 @media (min-width: 1500px) {
   .home-wrapper {
-    // .home-slider {
-    //   display: flex;
-    //   justify-content: center;
-    //   padding: 20px 5%;
-    // }
+    .home-slider {
+      width: 85%;
+      padding: 60px 0 15px 15%;
+    }
 
     .home-text {
       padding: 40px 10% 75px 10%;
@@ -185,6 +237,16 @@
           margin-top: 24px;
         }
       }
+    }
+  }
+}
+
+//////////// 1600 ///////////////////
+@media (min-width: 1600px) {
+  .home-wrapper {
+    .home-slider {
+      width: 84%;
+      padding: 60px 0 15px 16%;
     }
   }
 }

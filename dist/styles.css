@@ -162,6 +162,108 @@
     background-size: cover;
     background-position-x: 60%; }
 
+@media (min-width: 477px) {
+  .carousel-wrapper {
+    height: 400px;
+    width: 100%; }
+    .carousel-wrapper .carousel .slide {
+      height: 375px;
+      width: auto; } }
+
+@media (min-width: 596px) {
+  .carousel-wrapper {
+    height: 450px;
+    width: 100%; }
+    .carousel-wrapper .carousel .slide {
+      height: 425px;
+      width: auto; } }
+
+@media (min-width: 676px) {
+  .carousel-wrapper {
+    height: 500px;
+    width: 100%; }
+    .carousel-wrapper .carousel .slide {
+      height: 475px;
+      width: auto; } }
+
+@media (min-width: 775px) {
+  .carousel-wrapper {
+    height: 525px;
+    width: 100%; }
+    .carousel-wrapper .carousel .slide {
+      height: 500px;
+      width: auto; } }
+
+@media (min-width: 882px) {
+  .carousel-wrapper {
+    height: 550px;
+    width: 100%; }
+    .carousel-wrapper .carousel .slide {
+      height: 525px;
+      width: auto; } }
+
+@media (min-width: 1000px) {
+  .carousel-wrapper .carousel .slide:nth-of-type(1) {
+    background-position-x: 0;
+    background-position-y: 25%; }
+  .carousel-wrapper .carousel .slide:nth-of-type(2) {
+    background-position-x: 0;
+    background-position-y: 50%; }
+  .carousel-wrapper .carousel .slide:nth-of-type(3) {
+    background-position-x: 0;
+    background-position-y: 20%; }
+  .carousel-wrapper .carousel .slide:nth-of-type(4) {
+    background-position-x: 0;
+    background-position-y: 30%; }
+  .carousel-wrapper .carousel .slide:nth-of-type(5) {
+    background-position-x: 0; } }
+
+@media (min-width: 1100px) {
+  .carousel-wrapper {
+    height: 575px;
+    width: 100%; }
+    .carousel-wrapper .carousel .slide {
+      height: 550px;
+      width: auto; } }
+
+@media (min-width: 1200px) {
+  .carousel-wrapper {
+    height: 625px;
+    width: 100%; }
+    .carousel-wrapper .carousel .slide {
+      height: 600px;
+      width: auto; } }
+
+@media (min-width: 1300px) {
+  .carousel-wrapper .carousel .slide:nth-of-type(2) {
+    background-position-x: 0;
+    background-position-y: 70%; }
+  .carousel-wrapper .carousel .slide:nth-of-type(4) {
+    background-position-x: 0;
+    background-position-y: 50%; }
+  .carousel-wrapper .carousel .slide:nth-of-type(5) {
+    background-position-x: 0;
+    background-position-y: 20%; } }
+
+@media (min-width: 1400px) {
+  .carousel-wrapper {
+    height: 650px;
+    width: 100%; }
+    .carousel-wrapper .carousel .slide {
+      height: 625px;
+      width: auto; } }
+
+@media (min-width: 1600px) {
+  .carousel-wrapper .carousel .slide:nth-of-type(2) {
+    background-position-x: 0;
+    background-position-y: 50%; }
+  .carousel-wrapper .carousel .slide:nth-of-type(3) {
+    background-position-x: 0;
+    background-position-y: 10%; }
+  .carousel-wrapper .carousel .slide:nth-of-type(5) {
+    background-position-x: 0;
+    background-position-y: 80%; } }
+
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
 @font-face {
@@ -841,6 +943,14 @@
     color: #608541;
     cursor: pointer; }
 
+@media (min-width: 477px) {
+  .home-wrapper .home-slider {
+    padding: 35px 0 15px 8%; } }
+
+@media (min-width: 596px) {
+  .home-wrapper .home-slider {
+    padding: 40px 0 15px 8%; } }
+
 @media (min-width: 645px) {
   .home-wrapper .home-text {
     padding: 15px 6% 40px 6%; }
@@ -858,6 +968,10 @@
         height: 128px;
         margin-right: 19px;
         margin-top: 31px; } }
+
+@media (min-width: 676px) {
+  .home-wrapper .home-slider {
+    padding: 50px 0 15px 8%; } }
 
 @media (min-width: 900px) {
   .home-wrapper .home-text {
@@ -877,7 +991,19 @@
         margin-right: 24px;
         margin-top: 15px; } }
 
+@media (min-width: 1000px) {
+  .home-wrapper .home-slider {
+    padding: 60px 0 15px 8%; } }
+
+@media (min-width: 1100px) {
+  .home-wrapper .home-slider {
+    width: 90%;
+    padding: 60px 0 15px 10%; } }
+
 @media (min-width: 1200px) {
+  .home-wrapper .home-slider {
+    width: 88%;
+    padding: 60px 0 15px 12%; }
   .home-wrapper .home-text {
     padding: 30px 9% 60px 9%; }
     .home-wrapper .home-text .home-text1 {
@@ -895,7 +1021,20 @@
         margin-right: 30px;
         margin-top: 18px; } }
 
+@media (min-width: 1300px) {
+  .home-wrapper .home-slider {
+    width: 87%;
+    padding: 60px 0 15px 13%; } }
+
+@media (min-width: 1400px) {
+  .home-wrapper .home-slider {
+    width: 86%;
+    padding: 60px 0 15px 14%; } }
+
 @media (min-width: 1500px) {
+  .home-wrapper .home-slider {
+    width: 85%;
+    padding: 60px 0 15px 15%; }
   .home-wrapper .home-text {
     padding: 40px 10% 75px 10%; }
     .home-wrapper .home-text .home-text1 {
@@ -912,6 +1051,11 @@
         height: 175px;
         margin-right: 35px;
         margin-top: 24px; } }
+
+@media (min-width: 1600px) {
+  .home-wrapper .home-slider {
+    width: 84%;
+    padding: 60px 0 15px 16%; } }
 
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800");
 @import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,400i,500,500i,600,700i");
