@@ -11,7 +11,8 @@
 .board-wrapper {
   color: #3f3f3f;
   padding: 30px 5%;
-  text-align: justify; }
+  text-align: justify;
+  position: relative; }
   .board-wrapper h1 {
     font-family: "averta";
     font-size: 30px;
@@ -28,6 +29,8 @@
       .board-wrapper ul li span {
         font-size: 20px;
         font-family: "averta"; }
+  .board-wrapper .board-founder {
+    display: none; }
   .board-wrapper .board-img {
     width: 100%;
     display: flex;
@@ -84,6 +87,28 @@
     .board-wrapper h2 {
       font-size: 26px; } }
 
+@media (min-width: 700px) {
+  .board-wrapper .board-founder {
+    display: block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    right: 10%;
+    top: 11%; }
+    .board-wrapper .board-founder img {
+      height: 200px;
+      width: auto;
+      border-radius: 15px;
+      margin-bottom: 5px; }
+    .board-wrapper .board-founder figcaption {
+      font-family: "Open Sans", sans-serif;
+      line-height: 20px; } }
+
+@media (min-width: 800px) {
+  .board-wrapper .board-founder img {
+    height: 225px; } }
+
 @media (min-width: 900px) {
   .board-wrapper {
     padding: 55px 7%; }
@@ -98,6 +123,8 @@
         font-size: 24px; }
         .board-wrapper ul li span {
           font-size: 27px; }
+    .board-wrapper .board-founder img {
+      height: 275px; }
     .board-wrapper .board-img {
       margin-bottom: 50px; }
       .board-wrapper .board-img img {
@@ -105,6 +132,19 @@
         border-radius: 8%; }
     .board-wrapper h2 {
       font-size: 30px; } }
+
+@media (min-width: 1000px) {
+  .board-wrapper .board-founder {
+    right: 11%;
+    top: 10%; }
+    .board-wrapper .board-founder img {
+      height: 325px;
+      border-radius: 25px; } }
+
+@media (min-width: 1100px) {
+  .board-wrapper .board-founder {
+    right: 13%;
+    top: 10%; } }
 
 @media (min-width: 1200px) {
   .board-wrapper {
@@ -120,6 +160,11 @@
         font-size: 27px; }
         .board-wrapper ul li span {
           font-size: 30px; }
+    .board-wrapper .board-founder {
+      right: 13%;
+      top: 10%; }
+      .board-wrapper .board-founder img {
+        height: 350px; }
     .board-wrapper .board-img {
       margin-bottom: 60px; }
       .board-wrapper .board-img img {
@@ -127,11 +172,23 @@
     .board-wrapper h2 {
       font-size: 35px; } }
 
+@media (min-width: 1400px) {
+  .board-wrapper .board-founder {
+    right: 15%;
+    top: 9.5%; }
+    .board-wrapper .board-founder img {
+      height: 375px; } }
+
 @media (min-width: 1500px) {
   .board-wrapper {
     padding: 75px 8% ul;
       padding-margin-bottom: 70px;
       padding-padding: 0 45px; }
+    .board-wrapper .board-founder {
+      right: 16%;
+      top: 8%; }
+      .board-wrapper .board-founder img {
+        height: 400px; }
     .board-wrapper .board-img {
       margin-bottom: 70px; } }
 
@@ -287,7 +344,8 @@
   .ethics-wrapper .ethics img:first-of-type {
     float: right;
     height: 150px;
-    margin-left: 10px; }
+    margin-left: 10px;
+    padding-top: 1.5%; }
   .ethics-wrapper .ethics h2 {
     font-family: "roboreg";
     font-size: 18px;
@@ -374,7 +432,8 @@
       margin-bottom: 35px; }
     .ethics-wrapper .ethics img:first-of-type {
       height: 260px;
-      margin-left: 30px; }
+      margin-left: 30px;
+      padding-top: 1%; }
     .ethics-wrapper .ethics h2 {
       font-size: 23px;
       margin-bottom: 18px;
