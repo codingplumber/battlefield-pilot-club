@@ -80,12 +80,6 @@
   top: 0;
 }
 
-// can possible remove id
-#header-wrapper-slide.down {
-  // height: 257px;
-  // margin-bottom: 257px;
-}
-
 /////////////////////////////////////
 #nav-icon3 {
   width: 36px;
@@ -349,6 +343,9 @@
     .full-h-nav {
       ul {
         padding: 17px 50px;
+        li {
+          font-size: 20px;
+        }
       }
     }
 
@@ -446,6 +443,9 @@
       ul {
         padding: 17px 70px;
         letter-spacing: .25em;
+        li {
+          font-size: 21px;
+        }
       }
     }
 
