@@ -80,6 +80,13 @@
   top: 0;
 }
 
+#header-wrapper-slide.down {
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
 /////////////////////////////////////
 #nav-icon3 {
   width: 36px;
@@ -128,7 +135,7 @@
 }
 
 #nav-icon3 span:nth-child(4) {
-  top: 22px; /*36px*/
+  top: 22px;
 }
 
 #nav-icon3.open span:nth-child(1) {
@@ -157,6 +164,63 @@
   left: 50%;
 }
 //////////////////////////////////
+
+//////////// 400 /////////////////
+@media (min-Width: 400px) {
+  .header-wrapper {
+    figure {
+      figcaption {
+        letter-spacing: .75em;
+      }
+    }
+  }
+}
+
+//////////// 450 /////////////////
+@media (min-Width: 450px) {
+  .header-wrapper {
+    figure {
+      figcaption {
+        letter-spacing: .85em;
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+//////////// 500 /////////////////
+@media (min-Width: 500px) {
+  .header-wrapper {
+    figure {
+      figcaption {
+        letter-spacing: .95em;
+      }
+    }
+  }
+}
+
+//////////// 550 /////////////////
+@media (min-Width: 550px) {
+  .header-wrapper {
+    figure {
+      figcaption {
+        letter-spacing: 1.05em;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+//////////// 600 /////////////////
+@media (min-Width: 600px) {
+  .header-wrapper {
+    figure {
+      figcaption {
+        letter-spacing: 1.15em;
+      }
+    }
+  }
+}
 
 //////////// 645 /////////////////
 @media (min-Width: 645px) {

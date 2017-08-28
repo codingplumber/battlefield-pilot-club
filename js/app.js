@@ -6,8 +6,7 @@ angular.module('app', ['ui.router', 'ngAnimate', 'ngTouch'])
   $stateProvider
     .state('home', {
       url: '/',
-      templateUrl: './views/home.html',
-      controller: 'homeCtrl'
+      templateUrl: './views/home.html'
     })
     .state('projects', {
       url: '/projects',

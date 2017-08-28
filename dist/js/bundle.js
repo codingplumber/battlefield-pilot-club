@@ -6,8 +6,7 @@ angular.module('app', ['ui.router', 'ngAnimate', 'ngTouch']).config(function ($s
 
   $stateProvider.state('home', {
     url: '/',
-    templateUrl: './views/home.html',
-    controller: 'homeCtrl'
+    templateUrl: './views/home.html'
   }).state('projects', {
     url: '/projects',
     templateUrl: './views/projects.html'
@@ -66,7 +65,7 @@ angular.module('app').directive('header', function () {
 
           $('#header-slide').toggleClass('down');
 
-          $('#header-wrapper-slide').toggleClass('down');
+          // $('#header-wrapper-slide').toggleClass('down');
 
           $('#header-first-li').on('mouseenter', function () {
             $('.white').css('background', '#fff');
@@ -74,6 +73,17 @@ angular.module('app').directive('header', function () {
 
           $('#header-first-li').on('mouseleave', function () {
             $('.white').css('background', '#013765');
+          });
+
+          $('#header-slide li').on('click', function () {
+            if ('#header-first-li') {
+              $('#header-slide').stop().removeClass('down');
+              $('.white').css('background', '#013765');
+              $('#nav-icon3').removeClass('open');
+            } else {
+              $('#nav-icon3').removeClass('open');
+              $('#header-slide').stop().removeClass('down');
+            }
           });
         });
       });
