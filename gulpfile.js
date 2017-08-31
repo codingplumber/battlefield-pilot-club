@@ -5,7 +5,6 @@ var gulp = require('gulp')
 , CacheBuster = require('gulp-cachebust')
 , print = require('gulp-print')
 , babel = require('gulp-babel');
-// , uglify = require('gulp-uglify');
 
 var cachebust = new CacheBuster();
 
@@ -42,8 +41,8 @@ gulp.task('build-js', function() {
 
 gulp.task('build', ['build-css', 'build-js', 'build-images', 'build-views'], function() {
     return gulp.src('index.html')
-        .pipe(cachebust.references())
-        .pipe(gulp.dest('dist'));
+      .pipe(cachebust.references())
+      .pipe(gulp.dest('dist'));
 });
 
 gulp.task('watch', function() {

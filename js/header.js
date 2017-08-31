@@ -12,8 +12,6 @@ angular.module('app')
 
           $('#header-slide').toggleClass('down');
 
-          // $('#header-wrapper-slide').toggleClass('down');
-
           $('#header-first-li').on('mouseenter', function() {
             $('.white').css('background', '#fff');
           });
